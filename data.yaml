@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Cakalang -Katsuwonus Pelamis-', 'Kakap Merah -Lutjanus Malabaricus-', 'Kakatua -Saridae-', 'Kembung -Rastrelliger Kanagurta-', 'Malalugis -Decapterus Macarellus-', 'Unlabeled']
+
+roboflow:
+  workspace: imk-2024
+  project: imk-v2
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/imk-2024/imk-v2/dataset/2
